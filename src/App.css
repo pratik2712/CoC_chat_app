@@ -1,0 +1,263 @@
+body {
+  text-align: center;
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  background-image: url("https://wallpaperaccess.com/full/1396155.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: inline-block;
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  background-image: url("https://wallpaperaccess.com/full/1396155.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60vw;
+  height: 90vh;
+  margin-top: 5vh;
+  border-radius: 40px;
+}
+
+nav {
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  height: 8vh;
+  width: 97%;
+  border-radius: 20px;
+  color: white;
+  font-size: 85%;
+  font-weight: bold;
+  padding: 1%;
+}
+
+nav p {
+  margin-left: 20vw;
+}
+
+.signout {
+  align-self: flex-end;
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  border-radius: 20px;
+  width: 12vw;
+  height: 4vh;
+  margin-bottom: 2.5vh;
+  margin-left: 12vw;
+}
+
+section {
+  width: 100%;
+  height: 90%;
+  margin-top: 0.1vh;
+}
+.chatroom {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  height: 80%;
+  width: 90%;
+  margin-top: 1.8vh;
+  margin-left: 1.5vw;
+  overflow-y: scroll;
+}
+
+form {
+  height: 8vh;
+  position: fixed;
+  margin-top: 1vh;
+  margin-left: 1.5vw;
+  width: 55.5%;
+  display: flex;
+  font-size: 1.5rem;
+}
+form button {
+  width: 15%;
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 20px;
+}
+input {
+  line-height: 1.5;
+  width: 95%;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 20px;
+  color: white;
+  outline: none;
+  border: none;
+}
+::placeholder {
+  color: white;
+}
+
+.message {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1vh 0;
+}
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent .box {
+  background: #0b93f6;
+  margin: 1vh 0.5vw;
+  height: fit-content;
+  width: max-content;
+  max-width: 50%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 20px;
+}
+
+.sent p {
+  color: white;
+  align-self: flex-end;
+  text-align: left;
+}
+
+.received {
+  flex-direction: row;
+}
+
+.received .box {
+  background: #0b93f6;
+  margin: 1vh 0.5vw;
+  height: fit-content;
+  width: max-content;
+  max-width: 50%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 20px;
+}
+
+.received p {
+  color: rgb(253, 253, 253);
+  align-self: flex-end;
+  text-align: left;
+}
+.sent h6 {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 0;
+}
+.received h6 {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0;
+}
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.signin {
+  width: 100vw;
+  height: 100vh;
+  /* padding-top: 25%; */
+}
+
+.signin button {
+  margin-top: 20%;
+  border-radius: 50vw;
+  font-size: 90%;
+  width: 15%;
+  height: 10%;
+  display: block;
+  margin-left: 42%;
+  margin-right: 42%;
+  background: linear-gradient(to right, #3f6be6, #da69e4, #ee1d9e);
+}
+
+.signin h2 {
+  margin-top: 2%;
+  color: white;
+  font-weight: bold;
+}
+
+.signin p {
+  color: rgb(15, 15, 15);
+  font-size: large;
+  font-weight: bold;
+}
+
+@media (max-width: 650px) {
+  .main {
+    display: inline-block;
+    background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+    background-image: url("https://wallpaperaccess.com/full/1396155.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 1vh;
+    border-radius: 40px;
+  }
+
+  form {
+    height: 8vh;
+    position: fixed;
+    margin-top: 0.5vh;
+    margin-left: 1.5vw;
+    width: 95.5%;
+    display: flex;
+    font-size: 1.5rem;
+  }
+  nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    height: 8vh;
+    width: 97%;
+    border-radius: 20px;
+    color: white;
+    font-size: 75%;
+    font-weight: bold;
+    padding: 0.1%;
+  }
+
+  nav p {
+    margin-top: 3vh;
+    margin-left: 38vw;
+  }
+
+  .signout {
+    align-self: flex-end;
+    background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 1.5%;
+    margin-bottom: 2vh;
+    margin-left: 20vw;
+    margin-right: 1vw;
+    font-size: 90%;
+  }
+  .signin button {
+    margin-top: 20%;
+    border-radius: 10vw;
+    font-size: 90%;
+    width: 30%;
+    height: 10%;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    background: linear-gradient(to right, #3f6be6, #da69e4, #ee1d9e);
+  }
+}
+
+@media (max-width: 260px) {
+  nav p {
+    font-size: 75%;
+  }
+  .signout {
+    font-size: 70%;
+  }
+}
